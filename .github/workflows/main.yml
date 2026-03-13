@@ -20,7 +20,7 @@ jobs:
           git config --global user.email "github-actions@github.com"
 
       - name: Generate the snake files in './dist/'
-        uses: Platane/snk@v3
+        uses: Platane/snk@v3.2.0
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
