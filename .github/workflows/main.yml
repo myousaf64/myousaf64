@@ -34,6 +34,9 @@ jobs:
       - name: Commit and push dist to output branch
         run: |
           git checkout -b output || git checkout output
-          git add dist
+          mv dist/github-contribution-grid-snake.svg .
+          mv dist/github-contribution-grid-snake-dark.svg .
+          mv dist/github-contribution-grid-snake.gif .
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg github-contribution-grid-snake.gif
           git commit -m "Update dist directory" || echo "No changes to commit"
           git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" output
