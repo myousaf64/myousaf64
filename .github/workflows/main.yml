@@ -7,6 +7,10 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "github-contribution-grid-snake.svg"
+      - "github-contribution-grid-snake-dark.svg"
+      - "github-contribution-grid-snake.gif"
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
