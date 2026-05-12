@@ -48,4 +48,4 @@ jobs:
           mv dist/github-contribution-grid-snake.gif .
           git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg github-contribution-grid-snake.gif
           git commit -m "Update snake animation files" || echo "No changes to commit"
-          git push origin HEAD:main
+          git push origin HEAD:main || { echo "Push to main failed. Ensure GitHub Actions has write access and branch protection allows this workflow."; exit 1; }
