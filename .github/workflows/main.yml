@@ -1,5 +1,8 @@
 name: generate animation
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
@@ -34,12 +37,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and push dist to output branch
+      - name: Commit and push snake assets to main
         run: |
-          git checkout -b output || git checkout output
           mv dist/github-contribution-grid-snake.svg .
           mv dist/github-contribution-grid-snake-dark.svg .
           mv dist/github-contribution-grid-snake.gif .
           git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg github-contribution-grid-snake.gif
-          git commit -m "Update dist directory" || echo "No changes to commit"
-          git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" output
+          git commit -m "Update snake animation files" || echo "No changes to commit"
+          git push origin HEAD:main
