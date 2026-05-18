@@ -1,9 +1,19 @@
 name: generate animation
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "github-contribution-grid-snake.svg"
+      - "github-contribution-grid-snake-dark.svg"
+      - "github-contribution-grid-snake.gif"
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -16,8 +26,8 @@ jobs:
 
       - name: Setup Git config
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
 
       - name: Generate the snake files in './dist/'
         uses: Platane/snk@v3.2.0
@@ -31,12 +41,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and push dist to output branch
+      - name: Commit and push snake assets to main
         run: |
-          git checkout -b output || git checkout output
           mv dist/github-contribution-grid-snake.svg .
           mv dist/github-contribution-grid-snake-dark.svg .
           mv dist/github-contribution-grid-snake.gif .
           git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg github-contribution-grid-snake.gif
-          git commit -m "Update dist directory" || echo "No changes to commit"
-          git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" output
+          git commit -m "Update snake animation files" || echo "No changes to commit"
+          git push origin HEAD:main || { echo "Push to main failed. Ensure GitHub Actions has write access and branch protection allows this workflow."; exit 1; }
