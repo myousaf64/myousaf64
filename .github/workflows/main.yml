@@ -18,34 +18,30 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: Setup Git config
         run: |
           git config --global user.name "${{ github.repository_owner }}"
           git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
 
-      - name: Generate the snake files in './dist/'
-        uses: Platane/snk@v3.2.0
-        id: snake-gif
+      - name: Generate snake files
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=white&color_dots=#e2908d,#8DDFE2,#e2908d,#8DDFE2,#e2908d
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-contribution-grid-snake.gif?color_snake=white&color_dots=#e2908d,#8DDFE2,#e2908d,#8DDFE2,#e2908d
 
-      - name: Commit and push snake assets to main
+      - name: Commit and push generated files
         run: |
-          mv dist/github-contribution-grid-snake.svg .
-          mv dist/github-contribution-grid-snake-dark.svg .
-          mv dist/github-contribution-grid-snake.gif .
           git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg github-contribution-grid-snake.gif
           git commit -m "Update snake animation files" || echo "No changes to commit"
-          git push origin HEAD:main || { echo "Push to main failed. Ensure GitHub Actions has write access and branch protection allows this workflow."; exit 1; }
+          git push
