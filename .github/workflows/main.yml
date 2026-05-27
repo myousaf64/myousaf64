@@ -44,4 +44,5 @@ jobs:
         run: |
           git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg github-contribution-grid-snake.gif
           git commit -m "Update snake animation files" || echo "No changes to commit"
+          git pull --rebase origin main
           git push
