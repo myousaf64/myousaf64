@@ -43,6 +43,10 @@ jobs:
       - name: Commit and push generated files
         run: |
           git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg github-contribution-grid-snake.gif
-          git commit -m "Update snake animation files" || echo "No changes to commit"
-          git pull --rebase origin main
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update snake animation files"
+            git pull --rebase origin main
+            git push
+          fi
