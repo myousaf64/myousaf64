@@ -13,7 +13,7 @@ I'm a AI/Ml Ops student and CTF player.
 
 **`🎮`** Passionate about cybersecurity, actively participating in **CTFs** to sharpen my skills.
 
-**`⌨️`** Touch typing enthusiast—personal best: **108 WPM** (60 seconds).
+**`⌨️`** Touch typing enthusiast—personal best: **95 WPM** (60 seconds).
 
 Feel free to explore my repositories or reach out if you'd like to collaborate!
 
