@@ -1,74 +1,41 @@
-&nbsp;[ ![Welcome msg](https://readme-typing-svg.demolab.com/?font=Pixelify+Sans&size=32&duration=2550&pause=1000&color=ffffff&random=false&width=520&lines=Welcome+to+my+profile+!;I+turn+ideas+into+products;AI+%7C+MLOps+%7C+Automation)](https://github.com/settings/appearance#gh-dark-mode-only)[ ![Welcome msg](https://readme-typing-svg.demolab.com/?font=Pixelify+Sans&size=32&duration=2550&pause=1000&color=aaaaaa&random=false&width=520&lines=Welcome+to+my+profile+!;I+turn+ideas+into+products;AI+%7C+MLOps+%7C+Automation)](https://github.com/settings/appearance#gh-light-mode-only)
+<a href="https://github.com/myousaf64#gh-dark-mode-only"><img src="https://readme-typing-svg.demolab.com/?font=Pixelify+Sans&size=28&duration=2500&pause=1000&color=ffffff&width=520&lines=I+build+AI+products+that+ship.;MLOps+%7C+LLM+agents+%7C+computer+vision;CTF+player+on+the+side." alt="Typing intro"></a><a href="https://github.com/myousaf64#gh-light-mode-only"><img src="https://readme-typing-svg.demolab.com/?font=Pixelify+Sans&size=28&duration=2500&pause=1000&color=555555&width=520&lines=I+build+AI+products+that+ship.;MLOps+%7C+LLM+agents+%7C+computer+vision;CTF+player+on+the+side." alt="Typing intro"></a>
 
-## user@PC:~$ whoami
-I build things. AI-powered apps, automations, and MLOps pipelines that take an idea from a sketch to a working product.
-Cybersecurity is my side quest.
+### `khalid@abu-dhabi:~$ whoami`
+<img height="150" align="right" src="https://github.com/user-attachments/assets/44d46ee2-0354-4aa5-9e76-8e4de58be366">
 
-<p>
-  <img height="190" width="210" align="right" src="https://github.com/user-attachments/assets/44d46ee2-0354-4aa5-9e76-8e4de58be366" >  
-</p>
+AI/ML engineer who takes ideas from prototype to production.
+I build the product first, then the MLOps that keeps it running. Security is my side quest.
 
-## user@PC:~$ cat services.txt
-```text
-[+] AI integration     LLM apps, agents, RAG for real business use
-[+] Automation         Python, Bash, PowerShell workflows
-[+] MLOps              train, deploy, and monitor models
-[+] App development    web apps, dashboards, client products
-[+] Security           Splunk / ELK log monitoring setup
+### `khalid@abu-dhabi:~$ ls ./shipped`
+
+| Project | What it does |
+|---|---|
+| **Malem Al Sharq** · contract | Full software and AI infrastructure for a fractional real estate platform |
+| **ADNOC** · contract | Real-time inference for industrial digital twins: 10K+ points per session, under 200 ms |
+| **TAQA** · contract | RAG assistants on Copilot Studio + Azure AI Foundry, gas turbine trip early-warning MVP |
+| **EMX Network Twin** | Logistics digital twin: an LLM turns planning questions into scenarios, OR-Tools optimizes, SimPy simulates |
+| **AskMOEI-V2** | AI assistant that answers MOEI service questions in plain language |
+| **Leaffliction** | Crop disease detection from a single leaf photo |
+| **Inception of Things** | GitOps Kubernetes platform: push to Git, Argo CD deploys it (K3s, Vagrant) |
+
+### `khalid@abu-dhabi:~$ cat stack.txt`
+```
+ai    python  pytorch  tensorflow  langgraph  rag  faiss  onnx
+ops   docker  kubernetes  aws  fastapi  ci/cd  linux  nginx
+web   react  typescript  next.js  node
+low   c  c++  bash
 ```
 
-## user@PC:~$ ls ./more
+### `khalid@abu-dhabi:~$ ./hire-me --open-to full-time,contract`
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-myousaf64-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/myousaf64)
+[![Email](https://img.shields.io/badge/Email-64yousaf%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:64yousaf@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-myousaf64.github.io-222222?style=flat-square&logo=githubpages&logoColor=white)](https://myousaf64.github.io/portfolio)
+<!-- TODO: add Google Calendar appointment link, then uncomment
+[![Book a call](https://img.shields.io/badge/Book_a_call-Google_Calendar-4285F4?style=flat-square&logo=googlecalendar&logoColor=white)](PASTE_BOOKING_LINK_HERE)
+-->
 
-<details>
-<summary><b>stack/</b></summary>
+### `khalid@abu-dhabi:~$ fortune`
+> Touch typist, 95 WPM. CTFs on Hack The Box, picoCTF and Dubai CTF.
 
-- **Languages:** Python, Bash, PowerShell
-- **AI / ML:** LLM apps, agents, MLOps pipelines
-- **Observability:** Splunk, ELK Stack
-</details>
-
-<details>
-<summary><b>now_learning.log</b></summary>
-
-- Going deeper into **Splunk** and **ELK** for log analysis and observability
-- Production MLOps: deployment and monitoring
-</details>
-
-<details>
-<summary><b>side_quests/</b></summary>
-
-- Playing **CTFs** to keep my security skills sharp
-- Touch typing personal best: **95 WPM** (60 seconds)
-</details>
-
-## user@PC:~$ ./contact.sh
-Have an idea you want built? Hiring? Let's talk.
-Open to **contract work** and **full-time roles**.
-
-- **Email:** [YOUR_EMAIL](mailto:YOUR_EMAIL)
-- **LinkedIn:** [YOUR_LINKEDIN](https://www.linkedin.com/in/YOUR_LINKEDIN)
-- **Portfolio:** [YOUR_PORTFOLIO](https://YOUR_PORTFOLIO)
-
-## Below is my contributions graph
-╔═&nbsp;&nbsp;👀 𝕐&nbsp;𝕆&nbsp;𝕌&nbsp;ℝ&nbsp;&nbsp;𝕋&nbsp;ℍ&nbsp;𝔼&nbsp;𝕄&nbsp;𝔼&nbsp;&nbsp;𝕄&nbsp;𝕆&nbsp;𝔻&nbsp;𝔼 👀
-Snake assets are generated by workflow into this repo root.
-&nbsp;[ ![Snake animation](./github-contribution-grid-snake-dark.svg)](https://github.com/settings/appearance#gh-dark-mode-only)[ ![Snake animation](./github-contribution-grid-snake.svg)](https://github.com/settings/appearance#gh-light-mode-only)
-
-<!-- Markdown Alert extensions for emphasizign critical information -->
-
-<!-- > [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
-
-> [!WARNING]  
-> Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]
-> Negative potential consequences of an action. -->
-
-<!-- &nbsp;𝐈𝐓'𝐒 [𝐃𝐀𝐑𝐊⚫](https://github.com/settings/appearance#gh-dark-mode-only)[𝐁𝐑𝐈𝐆𝐇𝐓⚪](https://github.com/settings/appearance#gh-light-mode-only) 𝐈𝐍 𝐇𝐄𝐑𝐄.... -->
+<!-- Snake assets are generated by a workflow into this repo root. -->
+<a href="https://github.com/myousaf64#gh-dark-mode-only"><img src="./github-contribution-grid-snake-dark.svg" alt="Contribution snake"></a><a href="https://github.com/myousaf64#gh-light-mode-only"><img src="./github-contribution-grid-snake.svg" alt="Contribution snake"></a>
