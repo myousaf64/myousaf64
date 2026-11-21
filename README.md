@@ -18,15 +18,7 @@ I build the product first, then the MLOps that keeps it running. Security is my 
 | **Leaffliction** | Crop disease detection from a single leaf photo |
 | **Inception of Things** | GitOps Kubernetes platform: push to Git, Argo CD deploys it (K3s, Vagrant) |
 
-### `user@abu-dhabi:~$ cat stack.txt`
-```
-ai    python  pytorch  tensorflow  langgraph  rag  faiss  onnx
-ops   docker  kubernetes  aws  fastapi  ci/cd  linux  nginx
-web   react  typescript  next.js  node
-low   c  c++  bash
-```
-
-### `user@abu-dhabi:~$ ./hire-me --open-to full-time,contract`
+### `user@abu-dhabi:~$ ./get-in-touch --open-to full-time,contract`
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-myousaf64-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/myousaf64)
 [![Email](https://img.shields.io/badge/Email-64yousaf%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:64yousaf@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-myousaf64.github.io-222222?style=flat-square&logo=githubpages&logoColor=white)](https://myousaf64.github.io/portfolio)
