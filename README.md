@@ -1,21 +1,53 @@
-&nbsp;[ ![Welcome msg](https://readme-typing-svg.demolab.com/?font=Pixelify+Sans&size=32&duration=2550&pause=1000&color=ffffff&random=false&width=435&lines=Welcome+to+my+profile+!)](https://github.com/settings/appearance#gh-dark-mode-only)[ ![Welcome msg](https://readme-typing-svg.demolab.com/?font=Pixelify+Sans&size=32&duration=2550&pause=1000&color=aaaaaa&random=false&width=435&lines=Welcome+to+my+profile+!)](https://github.com/settings/appearance#gh-light-mode-only)
+&nbsp;[ ![Welcome msg](https://readme-typing-svg.demolab.com/?font=Pixelify+Sans&size=32&duration=2550&pause=1000&color=ffffff&random=false&width=520&lines=Welcome+to+my+profile+!;I+turn+ideas+into+products;AI+%7C+MLOps+%7C+Automation)](https://github.com/settings/appearance#gh-dark-mode-only)[ ![Welcome msg](https://readme-typing-svg.demolab.com/?font=Pixelify+Sans&size=32&duration=2550&pause=1000&color=aaaaaa&random=false&width=520&lines=Welcome+to+my+profile+!;I+turn+ideas+into+products;AI+%7C+MLOps+%7C+Automation)](https://github.com/settings/appearance#gh-light-mode-only)
 
-## user@PC:~$ WHOAMI
-I'm a AI/Ml Ops student and CTF player.
+## user@PC:~$ whoami
+I build things. AI-powered apps, automations, and MLOps pipelines that take an idea from a sketch to a working product.
+Cybersecurity is my side quest.
 
 <p>
   <img height="190" width="210" align="right" src="https://github.com/user-attachments/assets/44d46ee2-0354-4aa5-9e76-8e4de58be366" >  
 </p>
 
-**`🔍`** Currently diving deep into **Splunk** and **ELK Stack** to master log analysis and observability.
+## user@PC:~$ cat services.txt
+```text
+[+] AI integration     LLM apps, agents, RAG for real business use
+[+] Automation         Python, Bash, PowerShell workflows
+[+] MLOps              train, deploy, and monitor models
+[+] App development    web apps, dashboards, client products
+[+] Security           Splunk / ELK log monitoring setup
+```
 
-**`🤖`** Writing automation scripts using **Python**, **Bash**, and **PowerShell** to streamline workflows and solve complex problems.
+## user@PC:~$ ls ./more
 
-**`🎮`** Passionate about cybersecurity, actively participating in **CTFs** to sharpen my skills.
+<details>
+<summary><b>stack/</b></summary>
 
-**`⌨️`** Touch typing enthusiast - personal best: **95 WPM** (60 seconds).
+- **Languages:** Python, Bash, PowerShell
+- **AI / ML:** LLM apps, agents, MLOps pipelines
+- **Observability:** Splunk, ELK Stack
+</details>
 
-Feel free to explore my repositories or reach out if you'd like to collaborate!
+<details>
+<summary><b>now_learning.log</b></summary>
+
+- Going deeper into **Splunk** and **ELK** for log analysis and observability
+- Production MLOps: deployment and monitoring
+</details>
+
+<details>
+<summary><b>side_quests/</b></summary>
+
+- Playing **CTFs** to keep my security skills sharp
+- Touch typing personal best: **95 WPM** (60 seconds)
+</details>
+
+## user@PC:~$ ./contact.sh
+Have an idea you want built? Hiring? Let's talk.
+Open to **contract work** and **full-time roles**.
+
+- **Email:** [YOUR_EMAIL](mailto:YOUR_EMAIL)
+- **LinkedIn:** [YOUR_LINKEDIN](https://www.linkedin.com/in/YOUR_LINKEDIN)
+- **Portfolio:** [YOUR_PORTFOLIO](https://YOUR_PORTFOLIO)
 
 ## Below is my contributions graph
 ╔═&nbsp;&nbsp;👀 𝕐&nbsp;𝕆&nbsp;𝕌&nbsp;ℝ&nbsp;&nbsp;𝕋&nbsp;ℍ&nbsp;𝔼&nbsp;𝕄&nbsp;𝔼&nbsp;&nbsp;𝕄&nbsp;𝕆&nbsp;𝔻&nbsp;𝔼 👀
